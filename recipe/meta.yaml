@@ -1,5 +1,5 @@
 {% set name = "inkex" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/inkex-{{ version }}.tar.gz
-  sha256: fb6dbdbebef57d289cdf45b851fca994560fbd1ea39dc75af0bdd5161d2e9101
+  sha256: 2f9803154806ebae8a40b33ef2c691806a472857adc90303eaa32482bd8c19ed
 
 build:
   noarch: python
